@@ -6,7 +6,7 @@ let balance;
 let cashout;
 
 function atm(){
-    cardIn = prompt("Odberete tip na usluga: \n-cashout \n-sostojba");
+    cardIn = prompt("Odberete tip na usluga: \n-cashout \n-balance");
     if(cardIn === "cashout"){
         cashout = parseInt(prompt("Odbravte cashout, vnesete suma koja sakate da ja podignete."));
         while(isNaN(cashout)){
